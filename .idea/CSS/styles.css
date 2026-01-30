@@ -8,7 +8,7 @@ body {
     color: #253238;
 }
 header {
-    background: linear-gradient(120deg, #04AA6D, #058457);
+    background: linear-gradient(120deg, #F2E2C4, #F2CA99);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
@@ -27,7 +27,7 @@ section {
 }
 section h2 {
     margin-top: 0;
-    color: #04AA6D;
+    color: #A67A46;
 }
 footer {
     padding: 24px;
