@@ -8,6 +8,12 @@
                   font-weight:400;
                   font-style: normal;
               }
+.bodoni-moda-sc-TITLE {
+                     font-family: "Bodoni Moda SC", serif;
+                     font-optical-sizing: auto;
+                     font-weight:400;
+                     font-style: normal;
+                 }
 body {
     font-family: "Funnel Sans", sans-serif;
     margin: 0;
@@ -15,7 +21,8 @@ body {
     color: #253238;
 }
 header {
-    background: linear-gradient(35deg, #dfb583, #F2CA99);
+    font-family: "Bodoni Moda SC", serif;
+    background: repeating-linear-gradient(120deg, #A62679, #F26BCE);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
@@ -34,7 +41,7 @@ section {
 }
 section h2 {
     margin-top: 0;
-    color: #A67A46;
+    color: #343c49;
 }
 footer {
     padding: 24px;
@@ -57,7 +64,7 @@ footer {
 }
 .features li::before {
     content:"-";
-    color: #a67a46;
+    color: #b87270;
     margin-right:12px;
 }
 .site-nav ul {
@@ -72,15 +79,15 @@ footer {
     padding:12px 20px;
     border-radius:999px;
     text-decoration:none;
-    color: #a67a46;
+    color: #b87270;
     font-weight:600;
 }
 .site-nav a:hover, .site-nav a.active {
-    background: #dfb583;
+    background: #b87270;
     color:#fff;
 }
 .btn {
-    display:inline-block;
+    display : ruby-base-container;
     padding:12px 20px;
     border-radius:999px;
     font-weight:600;
@@ -136,3 +143,23 @@ footer {
     background-position: center;
     border-radius: 10px;
 }
+/* Color Theme Swatches in Hex */
+.Quinta-DALAM-1-hex { color: #A62679; }
+.Quinta-DALAM-2-hex { color: #F26BCE; }
+.Quinta-DALAM-3-hex { color: #082B59; }
+.Quinta-DALAM-4-hex { color: #343C49; }
+.Quinta-DALAM-5-hex { color: #B87270; }
+
+/* Color Theme Swatches in RGBA */
+.Quinta-DALAM-1-rgba { color: rgba(166, 38, 121, 1); }
+.Quinta-DALAM-2-rgba { color: rgba(242, 107, 206, 1); }
+.Quinta-DALAM-3-rgba { color: rgba(8, 43, 89, 1); }
+.Quinta-DALAM-4-rgba { color: rgba(52, 60, 73, 1); }
+.Quinta-DALAM-5-rgba { color: rgba(184, 114, 112, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Quinta-DALAM-1-hsla { color: hsla(321, 62, 40, 1); }
+.Quinta-DALAM-2-hsla { color: hsla(316, 83, 68, 1); }
+.Quinta-DALAM-3-hsla { color: hsla(214, 83, 19, 1); }
+.Quinta-DALAM-4-hsla { color: hsla(217, 16, 24, 1); }
+.Quinta-DALAM-5-hsla { color: hsla(1, 33, 58, 1); }
