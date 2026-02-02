@@ -72,3 +72,27 @@ footer {
     background: #dfb583;
     color:#fff;
 }
+.btn {
+    display:inline-block;
+    padding:12px 20px;
+    border-radius:999px;
+    font-weight:600;
+    text-decoration:none;
+    transition:0.2s ease;
+}
+.btn-primary {
+    background: #dfb583;
+    color:#fff;
+}
+.btn-primary:hover {
+    background: #dfb583;
+}
+.btn-ghost {
+    border:2px solid #dfb583;
+    color: #dfb583;
+}
+.btn-ghost:hover {
+    background: #dfb583;
+    color:#fff;
+}
+
