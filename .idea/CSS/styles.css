@@ -15,13 +15,13 @@
                      font-style: normal;
                  }
 body {
-    font-family: "Funnel Sans", sans-serif;
+    font-family:"Nunito Sans", sans-serif;
     margin: 0;
     background: #f4f7fb;
     color: #253238;
 }
 header {
-    font-family: "Bodoni Moda SC", serif;
+    font-family: "Nunito Sans", sans-serif;
     background: repeating-linear-gradient(120deg, #A62679, #F26BCE);
     color: #fff;
     padding: 60px 20px;
@@ -138,11 +138,12 @@ footer {
     color: #fff;
     padding: 48px 24px;
     font-family: "Inter",sans-serif;
-    background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url(hotel.webp);
+    background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url("IMGB.jpg");
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 18px;
 }
+
 /* Color Theme Swatches in Hex */
 .Quinta-DALAM-1-hex { color: #A62679; }
 .Quinta-DALAM-2-hex { color: #F26BCE; }
@@ -163,3 +164,8 @@ footer {
 .Quinta-DALAM-3-hsla { color: hsla(214, 83, 19, 1); }
 .Quinta-DALAM-4-hsla { color: hsla(217, 16, 24, 1); }
 .Quinta-DALAM-5-hsla { color: hsla(1, 33, 58, 1); }
+
+.img-01{
+    height:200px;
+    width:200px;
+}
