@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +8,14 @@
     <title>My First Website</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
+<nav class="site-nav" aria-label="Primary">
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
 <body>
 <header>
     <h1>Hotel</h1>
@@ -25,8 +33,15 @@
             <li>Product showcase</li>
             <li>Responsive blog layout</li>
         </ul>
+
     </section>
-</main>
+    <ul class="features">
+        <li>Responsive layout</li>
+        <li>Semantic HTML</li>
+        <li>Accessible components</li>
+    </ul>
+        </main>
+
 <footer>
     <p>Built with ❤️ using HTML & CSS.</p>
 </footer>

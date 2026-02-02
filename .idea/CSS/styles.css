@@ -35,3 +35,40 @@ footer {
     background: #e8edf4;
     font-size: 0.9rem;
 }
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+.features li {
+    padding:16px 20px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(15, 23, 42, 0.08);
+}
+.features li::before {
+    content:"✔";
+    color: #a67a46;
+    margin-right:12px;
+}
+.site-nav ul {
+    display:flex;
+    gap:16px;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.site-nav a {
+    display:block;
+    padding:12px 20px;
+    border-radius:999px;
+    text-decoration:none;
+    color: #a67a46;
+    font-weight:600;
+}
+.site-nav a:hover, .site-nav a.active {
+    background: #dfb583;
+    color:#fff;
+}
