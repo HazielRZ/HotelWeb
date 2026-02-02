@@ -14,15 +14,23 @@
                      font-weight:400;
                      font-style: normal;
                  }
+h1{
+    font-size: 4rem;
+    font-family: "Bodoni Moda SC", serif;
+
+}
 body {
     font-family:"Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
     margin: 0;
     background: #f4f7fb;
     color: #253238;
 }
 header {
     font-family: "Nunito Sans", sans-serif;
-    background: repeating-linear-gradient(120deg, #A62679, #F26BCE);
+    background: repeating-linear-gradient(120deg, #af257e, #F26BCE);
     color: #fff;
     padding: 60px 20px;
     text-align: center;
