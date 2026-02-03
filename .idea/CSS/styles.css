@@ -30,7 +30,7 @@ body {
 }
 header {
     font-family: "Nunito Sans", sans-serif;
-    background: repeating-linear-gradient(120deg, #af257e, #F26BCE);
+    background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url("/.idea/head.jpg");
     color: #fff;
     padding: 60px 20px;
     text-align: center;
