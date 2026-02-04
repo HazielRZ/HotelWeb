@@ -22,15 +22,45 @@
 </nav>
 
 <header>
+    
     <h1>QUINTA DALAM</h1>
     <p>ESPIRITU DE MICHOACAN</p>
 </header>
 
 <main>
+    <section class="booking-bar">
+        <form action="services.html" method="GET" class="booking-form">
+
+            <div class="input-group">
+                <label for="pax">Huéspedes</label>
+                <select id="pax" name="pax">
+                    <option value="1">1 habitación, 1 persona</option>
+                    <option value="2" selected>1 habitación, 2 personas</option>
+                    <option value="3">1 habitación, 3 personas</option>
+                    <option value="4">2 habitaciones, 4 personas</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label>Llegada → Salida</label>
+                <div class="date-inputs">
+                    <input type="date" name="checkin" required>
+                    <input type="date" name="checkout" required>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="promo">Código promocional</label>
+                <input type="text" id="promo" name="promo" placeholder="Opcional">
+            </div>
+
+            <button type="submit" class="btn-check">Ver disponibilidad</button>
+        </form>
+    </section>
     <section class="hero">
         <div>
-            <h1>Overlay Technique</h1>
-            <p>Combine gradients and imagery with strong contrast.</p>
+            <h1>Descubre Quencio</h1>
+            <p>Un pueblo magico escondido en Michoacan</p>
         </div>
     </section>
 
