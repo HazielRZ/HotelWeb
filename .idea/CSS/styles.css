@@ -141,16 +141,12 @@ footer {
 @media (max-width: 768px) {
     .nav-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 6px;
     }
-
-    .logo img {
-        height: 50px;
-    }
-
+    
     .site-nav ul {
         justify-content: center;
-        gap: 5px;
+        gap: 3px;
     }
 }
 .btn {
