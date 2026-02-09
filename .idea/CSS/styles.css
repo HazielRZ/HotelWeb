@@ -10,11 +10,17 @@
     --cream-bg: #fdfaf5;     
     --white: #ffffff;
 }
+.quicksand-quicksand {
+                font-family: "Quicksand", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: light;
+            }
 .funnel-sans-fuente {
                   font-family: "Funnel Sans", sans-serif;
                   font-optical-sizing: auto;
                   font-weight:400;
-                  font-style: normal;
+                  font-style: light;
               }
 .bodoni-moda-sc-TITLE {
                      font-family: "Bodoni Moda SC", serif;
@@ -114,12 +120,12 @@ footer {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
+
 .site-nav ul {
     display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
     list-style: none;
+    gap: 5px;
 }
 .site-nav a {
     display: block;
