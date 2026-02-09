@@ -21,7 +21,6 @@
                      font-optical-sizing: auto;
                      font-weight:400;
                      font-style: normal;
-                     font-variant: common-ligatures;
                  }
 h1{
 
@@ -92,20 +91,8 @@ footer {
     color: #b87270;
     margin-right:12px;
 }
-.nav-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    padding: 60, 20px;
-    padding: 0 5%;
-}
-
-
 .site-nav {
-    display: flex;
+    position: sticky;
     justify-content: center;
     top: 0;
     width: 100%;
@@ -118,12 +105,11 @@ footer {
 
 .site-nav ul {
     display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0, auto;
+    justify-content: center;
     list-style: none;
-    width: 100%;
+    gap: 5px;
 }
+
 .site-nav a {
     display: block;
     border-radius: 10px;
@@ -135,7 +121,6 @@ footer {
     letter-spacing: 2px;
     font-weight: 600;
     transition: background-color 0.3s;
-    width: 100%;
 }
 
 .site-nav a:hover, .site-nav a.active {
@@ -144,17 +129,9 @@ footer {
     backdrop-filter: blur(10px);
 }
 @media (max-width: 768px) {
-    .nav-container {
-        flex-direction: column;
-        gap: 4px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    
     .site-nav ul {
-        justify-content: center;
-        gap: 3px;
+        gap: 2px;
+        justify-content: space-around;
     }
 }
 .btn {
@@ -245,91 +222,4 @@ footer {
 .img-01{
     height:200px;
     width:200px;
-}
-
-/* idea de barra/*
-
- */
-
-.booking-bar {
-    background: #ffffff;
-    padding: 15px;
-    margin: 10px auto 30px;
-    max-width: 1100px;
-    width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-    position: relative;
-    z-index: 10;
-}
-
-.booking-form {
-    display: grid;
-    grid-template-columns: 1.5fr 1.5fr 2fr 1.5fr 1fr;
-    gap: 15px;
-    align-items: end;
-}
-
-.input-group {
-    display: flex;
-    flex-direction: column;
-    border-right: 1px solid #e0e0e0;
-    padding-right: 15px;
-}
-
-.input-group:last-of-type {
-    border-right: none;
-}
-
-.input-group label {
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: var(--slate-gray);
-    margin-bottom: 5px;
-    text-transform: uppercase;
-}
-
-.input-group input, .input-group select {
-    border: none;
-    font-size: 0.9rem;
-    color: #343c49;
-    outline: none;
-    padding: 5px 0;
-}
-
-.date-inputs {
-    display: flex;
-    gap: 5px;
-}
-
-
-.btn-check {
-    background-color: #f26bce;
-    color: white;
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    position: relative;
-}
-
-.btn-check:hover {
-    background-color: #af257e;
-}
-
-
-@media (max-width: 900px) {
-    .booking-form {
-        grid-template-columns: 1fr;
-    }
-    .input-group {
-        border-right: none;
-        border-bottom: 1px solid #eee;
-        padding-bottom: 10px;
-    }
-    .booking-bar {
-        margin-top: 20px;
-    }
 }
