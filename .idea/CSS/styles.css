@@ -12,19 +12,15 @@
 }
 .quicksand-quicksand {
                 font-family: "Quicksand", sans-serif;
-                font-optical-sizing: auto;
                 font-weight: 300;
-                font-style: light;
             }
 .funnel-sans-fuente {
                   font-family: "Funnel Sans", sans-serif;
-                  font-optical-sizing: auto;
                   font-weight:400;
-                  font-style: light;
+
               }
 .bodoni-moda-sc-TITLE {
                      font-family: "Bodoni Moda SC", serif;
-                     font-optical-sizing: auto;
                      font-weight:400;
                      font-style: normal;
                      font-variant: common-ligatures;
@@ -42,8 +38,7 @@ body {
     font-family:"Nunito Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-optical-sizing: auto;
-    margin: 0;
+       margin: 0;
     background: #f4f7fb;
     color: #253238;
 }
@@ -234,12 +229,6 @@ footer {
 .Quinta-DALAM-4-rgba { color: rgba(52, 60, 73, 1); }
 .Quinta-DALAM-5-rgba { color: rgba(184, 114, 112, 1); }
 
-/* Color Theme Swatches in HSLA */
-.Quinta-DALAM-1-hsla { color: hsla(321, 62, 40, 1); }
-.Quinta-DALAM-2-hsla { color: hsla(316, 83, 68, 1); }
-.Quinta-DALAM-3-hsla { color: hsla(214, 83, 19, 1); }
-.Quinta-DALAM-4-hsla { color: hsla(217, 16, 24, 1); }
-.Quinta-DALAM-5-hsla { color: hsla(1, 33, 58, 1); }
 
 .img-01{
     height:200px;
