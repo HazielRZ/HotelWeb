@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin CRUD - Quinta Dalam</title>
+    <link rel="stylesheet" href="css/Admin.css">
+</head>
+<body>
+
+<div class="admin-container">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1>QUINTA DALAM</h1>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Habitaciones</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="who-we-are.html">Conocenos</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>Devweb &copy; 2026</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <h2>Gestión de Habitaciones</h2>
+            <div class="user-info">
+                <span class="role">Admin</span>
+                <div class="avatar">A</div>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+
+            <section class="crud-section form-section">
+                <div class="section-header">
+                    <h3>Registrar / Editar Habitación</h3>
+                </div>
+
+                <form class="crud-form">
+                    <div class="form-group">
+                        <label for="id-hab">ID Habitación</label>
+                        <input type="text" id="id-hab" placeholder="Ej. HAB-001">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre / Temática</label>
+                        <input type="text" id="nombre" placeholder="Ej. Suite Pátzcuaro">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="capacidad">Capacidad (Personas)</label>
+                        <input type="number" id="capacidad" min="1" max="10" placeholder="Ej. 2">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="precio">Precio por Noche (MXN)</label>
+                        <input type="number" id="precio" step="0.01" placeholder="Ej. 1500.00">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="estado">Estado</label>
+                        <select id="estado">
+                            <option value="disponible">Disponible</option>
+                            <option value="ocupada">Ocupada</option>
+                            <option value="mantenimiento">En Mantenimiento</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="descripcion">Descripción Breve</label>
+                        <textarea id="descripcion" rows="2" placeholder="Detalles de la habitación..."></textarea>
+                    </div>
+
+                    <div class="form-actions full-width">
+                        <button type="reset" class="btn btn-ghost">Limpiar</button>
+                        <button type="submit" class="btn btn-primary">Guardar Habitación</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="crud-section table-section">
+                <div class="table-header">
+                    <h3>Inventario de Habitaciones (15 Total)</h3>
+                    <input type="text" placeholder="Buscar habitación..." class="search-input">
+                </div>
+
+                <div class="table-responsive">
+                    <table class="crud-table">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre</th>
+                            <th>Capacidad</th>
+                            <th>Estado</th>
+                            <th>Precio</th>
+                            <th>Acciones</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>HAB-001</td>
+                            <td>Suite Tzintzuntzan</td>
+                            <td>2</td>
+                            <td><span class="badge available">Disponible</span></td>
+                            <td>$1,800.00</td>
+                            <td class="actions">
+                                <button class="btn-text edit">Editar</button>
+                                <button class="btn-text delete">Eliminar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HAB-002</td>
+                            <td>Doble Santa Clara</td>
+                            <td>4</td>
+                            <td><span class="badge occupied">Ocupada</span></td>
+                            <td>$2,500.00</td>
+                            <td class="actions">
+                                <button class="btn-text edit">Editar</button>
+                                <button class="btn-text delete">Eliminar</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
