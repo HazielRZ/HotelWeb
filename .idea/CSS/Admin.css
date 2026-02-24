@@ -27,10 +27,14 @@
                  }
 h1{
 
+    
     font-family: "Bodoni Moda SC", serif;
         font-size: 4.5rem;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-        letter-spacing: 4px;
+        letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
     }
 
 
@@ -152,10 +156,16 @@ footer {
     }
 }
 .btn {
-    background-color: var(--primary);
+    background-color: #f26bce;
     color: white;
-    padding: 12px 30px;
-    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    position: relative;
+  
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.8rem;
@@ -164,18 +174,19 @@ footer {
     transition: transform 0.3s;
 }
 .btn-primary {
-    background: #dfb583;
+    
     color:#fff;
 }
 .btn-primary:hover {
-    background: #dfb583;
+    background: #fff;
+    color: #af257e;
 }
 .btn-ghost {
-    border:2px solid #dfb583;
-    color: #dfb583;
+    border:2px solid #ffffff;
+    color: #ffffff;
 }
 .btn-ghost:hover {
-    background: #dfb583;
+    background: #af257e;
     color:#fff;
 }
 
