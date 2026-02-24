@@ -246,9 +246,6 @@ footer {
     width:200px;
 }
 
-/* idea de barra/*
-
- */
 
 .booking-bar {
     background: #ffffff;
@@ -256,7 +253,7 @@ footer {
     margin: 10px auto 30px;
     max-width: 1100px;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 18px;
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
     position: relative;
     z-index: 10;
@@ -264,16 +261,19 @@ footer {
 
 .booking-form {
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr 2fr 1.5fr 1fr;
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     align-items: end;
+    width: 100%;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
+
     border-right: 1px solid #e0e0e0;
     padding-right: 15px;
+    min-width: 0; 
 }
 
 .input-group:last-of-type {
@@ -317,8 +317,33 @@ footer {
 .btn-check:hover {
     background-color: #af257e;
 }
+.full-width {
+    flex: 1;
+    border-right: none !important;
+}
+.button-group {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
 
+.form-actions-container {
+    grid-column: 1 / -1; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    margin-top: 10px;
+}
 
+.input-group textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
 @media (max-width: 900px) {
     .booking-form {
         grid-template-columns: 1fr;
