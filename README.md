@@ -2,7 +2,7 @@
 
 🚀 Características Principales
 
-    Experiencia Inmersiva: Interfaz diseñada con una paleta de colores orgánica (magentas, ocres y verdes) que reflejan la cultura regional.
+    Experiencia Inmersiva: Interfaz diseñada con una paleta de colores orgánica que reflejan la cultura regional.
 
     Módulo de Reservaciones: Sistema intuitivo para que los huéspedes aseguren su estancia.
 
@@ -15,8 +15,6 @@
 🛠️ Stack Tecnológico
 
     Frontend: HTML5, CSS3 (Custom Styles + Tailwind CSS).
-
-    Tipografía: Playfair Display para elegancia y Montserrat/Nunito Sans para legibilidad.
 
     Control de Versiones: Git & GitHub.
 
