@@ -156,17 +156,17 @@ footer {
     }
 }
 .btn {
+    
     background-color: #f26bce;
     color: white;
     border: none;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
     transition: background 0.3s ease;
     position: relative;
-  
-    text-decoration: none;
+    margin: 0 auto;
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 1px;
@@ -315,6 +315,10 @@ footer {
 }
 
 .btn-check:hover {
+    background-color: #af257e;
+}
+
+.btn:hover {
     background-color: #af257e;
 }
 .full-width {
