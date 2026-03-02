@@ -163,7 +163,7 @@ footer {
 .btn {
     background-color: var(--magenta-deep);
     color: white;
-    padding: 12px 30px;
+    padding: 8px 30px;
     border-radius: 50px;
     text-decoration: none;
     text-transform: uppercase;
@@ -1041,3 +1041,10 @@ body.page-slider .site-nav a.active {
     .slide-content { padding: 1.5rem; }
     #conocenos-slider { margin-top: 44px; height: calc(100vh - 44px); }
 }
+
+#login{
+    display: flex;
+    justify-content: center;
+
+}
+
