@@ -1,12 +1,8 @@
-🏨 Hotel Quinta Dalam - Web Solution
+🏨 Hotel Quinta Dalam - Web 
 
-Bienvenidos al repositorio oficial del proyecto Quinta Dalam, una plataforma web diseñada para capturar el "Espíritu de Michoacán". Desarrollado por el equipo de Devweb.
-📝 Descripción del Proyecto
-
-Este sistema es una solución integral de presencia digital para el Hotel Quinta Dalam. El sitio no solo busca informar, sino sumergir al usuario en la temática de los Pueblos Mágicos de Michoacán, facilitando la gestión de reservas y la visualización de sus 15 habitaciones temáticas.
 🚀 Características Principales
 
-    Experiencia Inmersiva: Interfaz diseñada con una paleta de colores orgánica (magentas, ocres y verdes) que reflejan la cultura regional.
+    Experiencia Inmersiva: Interfaz diseñada con una paleta de colores orgánica que reflejan la cultura regional.
 
     Módulo de Reservaciones: Sistema intuitivo para que los huéspedes aseguren su estancia.
 
@@ -19,8 +15,6 @@ Este sistema es una solución integral de presencia digital para el Hotel Quinta
 🛠️ Stack Tecnológico
 
     Frontend: HTML5, CSS3 (Custom Styles + Tailwind CSS).
-
-    Tipografía: Playfair Display para elegancia y Montserrat/Nunito Sans para legibilidad.
 
     Control de Versiones: Git & GitHub.
 
