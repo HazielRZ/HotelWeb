@@ -1059,11 +1059,11 @@ body.page-slider .site-nav a.active {
 }
 
 .checkout-form-section {
-    flex: 2; /* Toma 2 partes del ancho */
+    flex: 2;
 }
 
 .checkout-summary {
-    flex: 1; /* Toma 1 parte del ancho */
+    flex: 1; 
     min-width: 320px;
 }
 
@@ -1080,7 +1080,7 @@ body.page-slider .site-nav a.active {
     gap: 20px;
 }
 
-/* Reutilizando .input-group pero adaptándolo para el grid */
+
 .form-grid .input-group {
     border-right: none;
     padding-right: 0;
@@ -1088,7 +1088,7 @@ body.page-slider .site-nav a.active {
 
 .form-grid .input-group input,
 .form-grid .input-group select {
-    border: 1px solid rgba(52, 60, 73, 0.2); /* Usa tu --slate-gray con opacidad */
+    border: 1px solid rgba(52, 60, 73, 0.2); 
     border-radius: 6px;
     padding: 10px;
     width: 100%;
