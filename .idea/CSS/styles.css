@@ -1048,3 +1048,161 @@ body.page-slider .site-nav a.active {
 
 }
 
+/* =========================================
+   ESTILOS PARA LA PÁGINA DE CHECKOUT/PAGOS
+   ========================================= */
+
+.checkout-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.checkout-form-section {
+    flex: 2; /* Toma 2 partes del ancho */
+}
+
+.checkout-summary {
+    flex: 1; /* Toma 1 parte del ancho */
+    min-width: 320px;
+}
+
+.titulo-checkout {
+    color: var(--blue-night);
+    border-bottom: 2px solid var(--terracotta);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Reutilizando .input-group pero adaptándolo para el grid */
+.form-grid .input-group {
+    border-right: none;
+    padding-right: 0;
+}
+
+.form-grid .input-group input,
+.form-grid .input-group select {
+    border: 1px solid rgba(52, 60, 73, 0.2); /* Usa tu --slate-gray con opacidad */
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-grid .input-group input:focus {
+    border-color: var(--magenta-deep);
+}
+
+.phone-input {
+    display: flex;
+}
+
+.phone-input select {
+    width: 35%;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: var(--cream-bg);
+}
+
+.phone-input input {
+    width: 65%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.politicas-reserva {
+    grid-column: 1 / -1;
+    font-size: 0.9rem;
+    color: var(--slate-gray);
+    margin-top: 15px;
+}
+
+.politicas-reserva a {
+    color: var(--magenta-deep);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.politicas-reserva p {
+    margin-top: 10px;
+}
+
+.politicas-reserva i {
+    color: var(--terracotta);
+}
+
+.btn-continuar {
+    grid-column: 1 / -1;
+    width: max-content;
+    padding: 12px 40px;
+    margin-top: 10px;
+}
+
+/* Estilos de Resumen (Tarjeta Derecha) */
+.summary-features {
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.summary-features li {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.precio-desglose {
+    background-color: var(--cream-bg);
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.promo-banner {
+    background-color: var(--blue-night);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.precio-linea {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 24px;
+    color: var(--slate-gray);
+    font-size: 0.9rem;
+}
+
+.precio-linea.descuento {
+    color: var(--magenta-deep);
+    font-weight: bold;
+}
+
+.precio-linea.total {
+    border-top: 2px solid rgba(0,0,0,0.1);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--blue-night);
+    padding-bottom: 20px;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+    .checkout-container {
+        flex-direction: column;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .checkout-summary {
+        width: 100%;
+    }
+}

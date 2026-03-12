@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="HazielRZ, Cristhian">
+    <title>Reserva - Hotel Quinta Dalam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+<body>
+<nav class="site-nav" aria-label="Primary">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Habitaciones</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="who-we-are.html">Conocenos</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+    </ul>
+</nav>
+
+<main class="checkout-container">
+
+    <section class="checkout-form-section">
+        <h2 class="titulo-checkout">Datos para su reservación</h2>
+
+        <form action="#" method="POST" class="form-grid">
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input id="name" name="name" type="text" placeholder="Escribe tu(s) nombre(s)" required>
+            </div>
+
+            <div class="input-group">
+                <label for="lastName">Apellidos</label>
+                <input id="lastName" name="lastName" type="text" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Teléfono</label>
+                <div class="phone-input">
+                    <select>
+                        <option>MX +52</option>
+                    </select>
+                    <input id="phone" name="phone" type="tel" placeholder="Clave Lada + Teléfono" required>
+                </div>
+            </div>
+
+            <div class="politicas-reserva">
+                <label>
+                    <input type="checkbox" required>
+                    He leído y acepto los <a href="#">términos y condiciones</a>.
+                </label>
+                <p><i class="fa-solid fa-check"></i> Has obtenido el mejor precio disponible reservando directo.</p>
+            </div>
+
+            <button type="submit" class="btn-check btn-continuar">Continuar a Pago</button>
+        </form>
+    </section>
+
+    <aside class="checkout-summary">
+        <div class="card">
+            <img src="../images/habitacion.jpg" alt="Habitación Tzintzuntzan">
+            <div class="card-body">
+                <h3 style="color: var(--magenta-deep);">101 - Tzintzuntzan</h3>
+                <p><i class="fa-solid fa-bed w-6 text-center"></i> Habitación Temática Pueblo Mágico</p>
+                <p><i class="fa-solid fa-user-group w-6 text-center"></i> 2 adultos</p>
+                <p><i class="fa-solid fa-calendar-check w-6 text-center"></i> Entrada: sáb, 28 mar. 2026 15:00 hrs</p>
+                <p><i class="fa-solid fa-calendar-xmark w-6 text-center"></i> Salida: mar, 31 mar. 2026 12:00 hrs</p>
+                <p class="font-semibold text-dalam-navy mt-4 border-t pt-4">Estancia de 3 noches</p>
+
+            </div>
+
+            <div class="precio-desglose">
+                <div class="promo-banner">Meses sin intereses disponibles</div>
+                <div class="precio-linea">
+                    <span>3 noches:</span> <span>$24,345 MXN</span>
+                </div>
+                <div class="precio-linea descuento">
+                    <span>Descuento:</span> <span>-$4,869 MXN</span>
+                </div>
+                <div class="precio-linea total">
+                    <span>Total:</span> <span>$19,476 MXN</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+</main>
+</body>
+</html>
